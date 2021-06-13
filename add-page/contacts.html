@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="file.php">
+        <div>Request a call(повестить псевдоэлемнент)</div> 
+        <label for="name">Enter your name</label>
+        <input 
+          type="text" 
+          name="name" 
+          id="name" 
+          placeholder="Elizabeth Morozova"
+          required
+        >
+
+        <label for="age">Indicate your age</label>
+        <input 
+          type="number" 
+          id="age" 
+          name="age" 
+          min="1"
+        >
+
+        <div>Indicate your gender</div>
+        <label for="women"><span>W</span></label>
+        <input 
+          type="radio" 
+          id="gender" 
+          name="gender" 
+          value="Yes"
+        >
+
+        <label for="men"><span>M</span></label>
+        <input 
+          type="radio" 
+          id="gender" 
+          name="gender" 
+          value="No"
+        >
+        
+        <label for="email">Enter your email</label>
+        <input 
+          type="email" 
+          id="email" 
+          name="email" 
+          required
+          placeholder="lizavetam@gmail.com"
+        >
+        
+    </form>
+</body>
+</html>
