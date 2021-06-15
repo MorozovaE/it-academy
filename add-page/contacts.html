@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
     <form action="file.php">
-        <div>Request a call(повестить псевдоэлемнент \2706)</div> 
+       <section> <div>Request a call <span>&#128222;</span></div> 
         <label for="name">Enter your name</label>
         <input 
           type="text" 
@@ -27,22 +28,23 @@
         >
 
         <div>Indicate your gender</div>
-        <label for="women"><span>W</span></label>
+       <label  for="women">F</label>
         <input 
           type="radio" 
           id="gender" 
           name="gender" 
           value="Yes"
         >
-
-        <label for="men"><span>M</span></label>
+     
+        <label 
+        for="men">M</label>
         <input 
           type="radio" 
           id="gender" 
           name="gender" 
           value="No"
         >
-        
+      
         <label for="email">Enter your email</label>
         <input 
           type="email" 
@@ -51,16 +53,17 @@
           required
           placeholder="lizavetam@gmail.com"
         >
-        
         <label for="num">Enter your number</label>
         <input 
           type="tel" 
           id="num" 
           name="number"
-          placeholder="+375297585134">
-
+          placeholder="+375297585134"
+          pattern="[0-9]{9}"
+          >
           <button type="submit">Send</button>
           <button type="reset" value="clear">Clear</button>
+        </section>
     </form>
 </body>
 </html>
