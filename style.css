@@ -1,3 +1,8 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
 .logotype {
   display: inline-block;
 }
@@ -11,7 +16,7 @@
     box-sizing: border-box;
 }
 header {
-    border-bottom: 2px solid green;
+    border-bottom: 2px solid #99b899;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -37,6 +42,40 @@ header {
 }
 .numb a {
     color: #d3a42e; 
-    background: #122214; 
+    background: #1d381d; 
     padding: 2px; 
-   }
+}
+nav {
+    background-color: #1d381d;
+    box-sizing: border-box;
+    height: 39px;
+    text-align: center;
+    font-size: 23px;
+    border-bottom: 2px solid #99b899;
+}
+nav a {
+    display : inline-block;
+    color :#99b899;
+    margin-top: 5px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Maven Pro', sans-serif;
+    font-family: 'Noto Serif JP', serif;
+}
+iframe {
+    box-sizing: border-box;
+    width: 739px;
+    height: 860px;
+    background-color: #297451;
+}
+main{
+    background-color: #41a56b;
+    background-color: hsl(49, 100%, 78%);
+    text-align: center;
+}
+.main-page-bg {
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Maven Pro', sans-serif;
+    font-family: 'Noto Serif JP', serif;
+}
+
