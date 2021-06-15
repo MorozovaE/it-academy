@@ -1,27 +1,30 @@
-body {
-    /* background-color: #3bac3b; */
-}
-.lt {
+.logotype {
   display: inline-block;
+}
+.logo,.logotype,.slogan {
+    margin: 15px;
 }
 .logo {
     margin-left: 50px;
     width: 80px;
     height: 80px;
     box-sizing: border-box;
-    margin-top: 40px;
-    margin-bottom: 0;
 }
 header {
     border-bottom: 2px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #001E20;
+    color: goldenrod;
+    text-shadow: wheat;
 }
 .slogan {
-    margin-bottom: 0;
     box-sizing: border-box;
-    width: 800px;
+    width: 700px;
     height: 70px;
-    text-align: center;
     display: inline-block;
+    text-align: center;
     font-size: 40px;
     font-family: 'Dancing Script', cursive;
     font-family: 'Maven Pro', sans-serif;
@@ -29,4 +32,5 @@ header {
 }
 .numb {
     display: inline-block;
+    white-space: pre-wrap;
 }
