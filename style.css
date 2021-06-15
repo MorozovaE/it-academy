@@ -16,8 +16,8 @@ header {
     align-items: center;
     justify-content: space-between;
     background-color: #001E20;
-    color: goldenrod;
-    text-shadow: wheat;
+    color: #d3a42e;
+
 }
 .slogan {
     box-sizing: border-box;
@@ -33,4 +33,10 @@ header {
 .numb {
     display: inline-block;
     white-space: pre-wrap;
+    margin-right: 30px;
 }
+.numb a {
+    color: #d3a42e; 
+    background: #122214; 
+    padding: 2px; 
+   }
