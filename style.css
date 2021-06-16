@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+}
+.logotype {
+  display: inline-block;
+}
+.logo,
+.logotype,
+.slogan {
+  margin: 15px;
+}
+.logo {
+  margin-left: 50px;
+  width: 80px;
+  height: 80px;
+  box-sizing: border-box;
+}
+header {
+  border-bottom: 2px solid #99b899;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #001e20;
+  color: #d3a42e;
+}
+.slogan {
+  box-sizing: border-box;
+  width: 700px;
+  height: 70px;
+  display: inline-block;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Dancing Script", cursive;
+  font-family: "Maven Pro", sans-serif;
+  font-family: "Noto Serif JP", serif;
+}
+.numb {
+  display: inline-block;
+  white-space: pre-wrap;
+  margin-right: 30px;
+}
+.numb a {
+  color: #d3a42e;
+  background: #1d381d;
+  padding: 2px;
+}
+nav {
+  background-color: #1d381d;
+  box-sizing: border-box;
+  height: 39px;
+  text-align: center;
+  font-size: 23px;
+  border-bottom: 2px solid #99b899;
+}
+nav a {
+  display: inline-block;
+  color: #99b899;
+  margin-top: 5px;
+  font-family: "Dancing Script", cursive;
+  font-family: "Maven Pro", sans-serif;
+  font-family: "Noto Serif JP", serif;
+}
+iframe {
+  box-sizing: border-box;
+  width: 739px;
+  height: 860px;
+  background-color: #297451;
+}
+main {
+  background-color: #41a56b;
+  background-color: #ffea8f;
+  text-align: center;
+}
+.main-page-bg {
+  font-size: 30px;
+  font-family: "Dancing Script", cursive;
+  font-family: "Maven Pro", sans-serif;
+  font-family: "Noto Serif JP", serif;
+}
+footer {
+    background-color: #1d381d;
+    font-size: 20px;
+}
+footer a{
+  color: #d3a42e;
+}
+footer span ,footer ul,.footer{
+    display: inline-block;
+}
+ footer span {
+    margin-left: 1100px;
+}

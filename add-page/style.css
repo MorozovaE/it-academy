@@ -1,0 +1,19 @@
+.main-page-bg {
+    background-color: #ece0ab86;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Maven Pro', sans-serif;
+    font-family: 'Noto Serif JP', serif;
+}
+form {
+background-color: #ece0ab86;
+}
+section{
+    text-align: center;
+    white-space: pre-wrap;
+    font-size: 23px;
+}
+div .el::after{
+    content: 'U+1F4DE';
+    font-size: 25px;
+}
